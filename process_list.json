@@ -1,0 +1,16 @@
+[
+    {
+        "taskName": "Task Name 01",
+        "taskDetails": {
+            "path": "E:/RnD/electron/BuildTool_demo",
+            "cmd": "npm init"
+        }
+    },
+    {
+        "taskName": "Task Name 02",
+        "taskDetails": {
+            "path": "E:/RnD/electron/BuildTool_demo",
+            "cmd": "npm pack"
+        }
+    }
+]
