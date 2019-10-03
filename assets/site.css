@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #2c2c32;
+}
+header{
+    height: 35px;
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.33);
+}
+header h3{
+    margin-top: 10px;
+    font-size: 24px;
+    margin-left: 20px;
+    color: #fff;
+    font-family: Aclonica;
+    font-weight: 100;
+}
+header h3 span{
+    color: #5497fb;
+    font-weight: 600;
+}
+
+
+.main-area{
+    width: calc(100% - 30px);
+    margin: 15px;
+    margin-top : 40px;
+}
+.main-area .left-area{
+    width: calc(100% - 650px);
+    display: inline-block;
+   
+}
+.main-area .right-area{
+    width: 650px;
+    display: inline-block;
+    position: absolute;
+}
+
+#xterm{
+    height: 650px;
+    height: 520px;
+}
+
+#logmsg{
+    text-align: center;
+    margin-top: 85px;
+}
+
+#logmsg h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+#logmsg p {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+button{
+    background: #005ba4;
+    color: #FFF;
+    padding: 10px;
+    font-size: 16px;
+    height: 50px;
+    width: 180px;
+    border-radius: 40px;
+}

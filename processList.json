@@ -4,10 +4,6 @@
         "processDetails": [
             {
                 "path": "E:/RnD/electron/BuildTool_demo",
-                "cmd": "npm init"
-            },
-            {
-                "path": "E:/RnD/electron/BuildTool_demo",
                 "cmd": "npm pack"
             }
         ]

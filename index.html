@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>:: Build Tool ::</title>
+  <link rel="Stylesheet" href="./node_modules/xterm/css/xterm.css">
+  <link rel="stylesheet" type="text/css" href="./assets/fonts/Aclonica.css" />
+  <link rel="Stylesheet" href="./assets/site.css">
+</head>
+
+<body>
+  <header>
+    <h3><span>Build</span> Tool</h3>
+  </header>
+  <div class="main-area">
+    <div class="left-area">
+      <div id="logmsg">
+        <h2>Build Solution</h2>
+        <p>Solution build based on process list</p>
+        <button id="btnStart" >Let's Start</button>
+      </div>
+    </div>
+    <div class="right-area">
+      <div id="xterm"></div>
+    </div>
+  </div>
+</body>
+<script>
+  require('./renderer.js')
+</script>
+
+</html>

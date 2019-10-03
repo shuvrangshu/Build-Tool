@@ -1,0 +1,17 @@
+{
+  "name": "buildtool",
+  "version": "1.0.0",
+  "description": "A minimal node-pty Electron example",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --ignore-gpu-blacklist"
+  },
+  "repository": "https://github.com/Tyriar/node-pty",
+  "author": "Tyriar",
+  "dependencies": {
+    "electron": "4.0.1",
+    "node-pty": "^0.8.0",
+    "xterm": "^4.0.0",
+    "xterm-addon-fit": "^0.2.1"
+  }
+}
